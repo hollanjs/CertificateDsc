@@ -5,6 +5,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Removed
+
+- Removed `Find-Certificate`
+  - `Find-Certificate` was moved to the DscResource.Common module.
+    - Fixes CertificateDsc [Issue #272](https://github.com/dsccommunity/CertificateDsc/issues/272)
+    - DscResource.Common Update, Reference [Issue #100](https://github.com/dsccommunity/DscResource.Common/issues/100)
+
 ### Changed
 
 - CertReq:
